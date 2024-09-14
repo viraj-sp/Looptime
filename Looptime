@@ -1,0 +1,18 @@
+def mf(n):
+    
+    for i in range(n):
+        print("First Loop")
+    
+   
+    j = 1
+    while j <= n:
+        print("Second Loop", j)
+        j *= 2
+
+    
+    for i in range(100):
+        print("Third Loop")
+
+
+n = 10
+mf(n)
